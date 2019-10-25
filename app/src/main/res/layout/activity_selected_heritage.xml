@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:width="350dp"
+            android:gravity="center"
+            android:text="Indian Heritage"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:columnWidth="90dp"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|fill_vertical|center_horizontal"
+            android:padding="10sp"
+            android:text="More Info"
+            android:textColorLink="#3F51B5"
+            android:textStyle="bold"
+            app:backgroundTint="#143f70"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/ic_priority_high_black_24dp"
+            app:iconPadding="20dp"
+            app:rippleColor="#FFFFFF"
+            app:strokeColor="@color/colorPrimary"
+            app:strokeWidth="2dp" />
+
+
+    </LinearLayout>
+</ScrollView>
+

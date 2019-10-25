@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="heritage.xsd" generated="2019-10-05T23:09:59">
+
+    <heritage>
+        <name>Taj Mahal</name>
+        <address>Agra, India</address>
+        <image>tajmahal1.jpg</image>
+        <url>https://www.tajmahal.gov.in/</url>
+        <information>An immense mausoleum of white marble, built in Agra between 1631 and 1648 by order of the Mughal emperor Shah Jahan in memory of his favourite wife, the Taj Mahal is the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage.</information>>
+    </heritage>
+
+    <heritage>
+        <name>Qutub Minar</name>
+        <address>New Delhi</address>
+        <image>qutubminar1.jpg</image>
+        <url>https://en.m.wikipedia.org/wiki/Qutb_Minar</url>
+        <information>Built in the early 13th century a few kilometres south of Delhi, the red sandstone tower of Qutb Minar is 72.5 m high, tapering from 2.75 m in diameter at its peak to 14.32 m at its base, and alternating angular and rounded flutings. The surrounding archaeological area contains funerary buildings, notably the magnificent Alai-Darwaza Gate, the masterpiece of Indo-Muslim art (built in 1311), and two mosques, including the Quwwatu'l-Islam, the oldest in northern India, built of materials reused from some 20 Brahman temples.</information>>
+    </heritage>
+    <heritage>
+        <name>Red Fort</name>
+        <address>New Delhi</address>
+        <image>redfort1.jpg</image>
+        <url>https://en.m.wikipedia.org/wiki/Red_Fort</url>
+        <information>The Red Fort Complex was built as the palace fort of Shahjahanabad – the new capital of the fifth Mughal Emperor of India, Shah Jahan. Named for its massive enclosing walls of red sandstone, it is adjacent to an older fort, the Salimgarh, built by Islam Shah Suri in 1546, with which it forms the Red Fort Complex. The private apartments consist of a row of pavilions connected by a continuous water channel, known as the Nahr-i-Behisht (Stream of Paradise). The Red Fort is considered to represent the zenith of Mughal creativity which, under the Shah Jahan, was brought to a new level of refinement. The planning of the palace is based on Islamic prototypes, but each pavilion reveals architectural elements typical of Mughal building, reflecting a fusion of Persian, Timurid and Hindu traditions The Red Fort’s innovative planning and architectural style, including the garden design, strongly influenced later buildings and gardens in Rajasthan, Delhi, Agra and further afield.</information>>
+    </heritage>
+    <heritage>
+        <name>The Sun Temple</name>
+        <address>Oddisa</address>
+        <image>suntemple1.jpg</image>
+        <url>https://en.m.wikipedia.org/wiki/Sun_temple</url>
+
+        <information>On the shores of the Bay of Bengal, bathed in the rays of the rising sun, the temple at Konarak is a monumental representation of the sun god Surya's chariot; its 24 wheels are decorated with symbolic designs and it is led by a team of six horses. Built in the 13th century, it is one of India's most famous Brahman sanctuaries.</information>>
+    </heritage>
+    <heritage>
+        <name>Ajanta Caves</name>
+        <address>Aurangabad,India</address>
+        <image>ajanta1.jpg</image>
+        <url>https://en.m.wikipedia.org/wiki/Ajanta_Caves</url>
+
+        <information>The first Buddhist cave monuments at Ajanta date from the 2nd and 1st centuries B.C. During the Gupta period (5th and 6th centuries A.D.), many more richly decorated caves were added to the original group. The paintings and sculptures of Ajanta, considered masterpieces of Buddhist religious art, have had a considerable artistic influence.</information>>
+    </heritage>
+
+
+</dataroot>
