@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,19 +43,20 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button"
-            android:layout_width="400dp"
+            android:layout_width="137dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|fill_vertical|center_horizontal"
             android:padding="10sp"
             android:text="More Info"
-            android:textColorLink="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#FFFFFF"
             android:textStyle="bold"
-            app:backgroundTint="#143f70"
+            app:backgroundTint="#3F51B5"
             app:cornerRadius="10dp"
             app:icon="@drawable/ic_priority_high_black_24dp"
             app:iconPadding="20dp"
             app:rippleColor="#FFFFFF"
-            app:strokeColor="@color/colorPrimary"
+            app:strokeColor="#041231"
             app:strokeWidth="2dp" />
 
 

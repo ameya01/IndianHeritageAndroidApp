@@ -13,8 +13,7 @@
         android:orientation="vertical"
         tools:context="com.example.ameya.indianheritage.com.example.ameya.indianheritage.SelectedHeritageMoreInfo">
 
-        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
+        <ScrollView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
@@ -29,7 +28,8 @@
                     android:layout_height="wrap_content"
                     android:text="Indian Heritage Information"
                     android:textAlignment="center"
-                    android:textSize="35sp" />
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView3"
@@ -57,7 +57,7 @@
                     android:layout_height="wrap_content"
                     android:linksClickable="true"
                     android:padding="10sp"
-                    android:text="Url"
+                    android:text="Link"
                     android:textColor="@android:color/background_dark"
                     android:textSize="25sp"
                     android:textStyle="bold|italic" />
@@ -67,7 +67,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10sp"
-                    android:text="Informaiton"
+                    android:text="Information"
                     android:textAlignment="center"
                     android:textSize="25sp"
                     android:textStyle="bold|italic"
@@ -78,19 +78,20 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button2"
-            android:layout_width="400dp"
+            android:layout_width="137dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|fill_vertical|center_horizontal"
+            android:layout_gravity="center_horizontal|center_vertical|fill_vertical"
             android:padding="10sp"
             android:text="Web Info"
-            android:textColorLink="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#FFFFFF"
             android:textStyle="bold"
-            app:backgroundTint="#143f70"
+            app:backgroundTint="#3F51B5"
             app:cornerRadius="10dp"
             app:icon="@drawable/ic_priority_high_black_24dp"
             app:iconPadding="20dp"
             app:rippleColor="#FFFFFF"
-            app:strokeColor="@color/colorPrimary"
+            app:strokeColor="#041231"
             app:strokeWidth="2dp" />
 
     </LinearLayout>
