@@ -17,7 +17,7 @@ public class SelectedHeritage extends AppCompatActivity {
 
     private ImageView heritageImageView = null;
     private Button moreInfoButton = null;
-    private  Button nextButton = null;
+    private Button nextButton = null;
     private TextView title = null;
     private Intent intent = null;
     private int i =0;
