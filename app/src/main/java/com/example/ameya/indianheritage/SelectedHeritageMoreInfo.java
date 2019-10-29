@@ -33,7 +33,7 @@ public class SelectedHeritageMoreInfo extends AppCompatActivity {
 
         data = (HeritageDetails) bundle.getSerializable("data");
 
-        //wire and populate the fieldswith data.getName() etc
+        //wire and populate the fields with data.getName() etc
         nameTextView    = findViewById(R.id.textView5);
         addressTextView = findViewById(R.id.textView3);
         urlTextView     = findViewById(R.id.textView2);
